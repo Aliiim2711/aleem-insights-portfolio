@@ -1,0 +1,160 @@
+[
+  {
+    "id": "syncscribe-ai",
+    "title": "SyncScribe AI",
+    "tagline": "AI-powered meeting intelligence platform",
+    "category": "AI/ML",
+    "tags": ["AI", "NLP", "FastAPI", "LLMs"],
+    "description": "AI meeting assistant with transcription, summarization, task extraction, and intelligent ranking workflow.",
+    "image": "/placeholder.svg",
+    "github": "https://github.com/Aliiim2711/SyncScribe-AI",
+    "overview": "SyncScribe AI is an intelligent meeting assistant that transforms how teams capture and act on meeting insights. It combines speech-to-text, natural language processing, and large language models to automatically transcribe meetings, generate concise summaries, extract actionable tasks, and prioritize them.",
+    "problem": "Manual note-taking during meetings is time-consuming, error-prone, and causes participants to miss important discussions. Teams struggle to track action items and follow up effectively.",
+    "dataSources": [
+      "Real-time audio streams",
+      "Meeting transcripts",
+      "User task databases"
+    ],
+    "approach": {
+      "etl": "Built streaming ETL pipeline to process audio in real-time, chunk transcripts, and store in vector database",
+      "cleaning": "Applied text normalization, speaker diarization, and noise reduction to improve transcript quality",
+      "modeling": "Integrated Whisper for transcription, GPT-4 for summarization, and BERT for task extraction and ranking",
+      "visualization": "Created dashboard for meeting insights with task priority matrices and timeline views"
+    },
+    "techStack": [
+      "Python",
+      "FastAPI",
+      "OpenAI GPT-4",
+      "Whisper",
+      "BERT",
+      "PostgreSQL",
+      "React"
+    ],
+    "impact": [
+      "Reduced manual note-taking time by 60%",
+      "Improved task completion rate by 35%",
+      "Increased meeting participant engagement by 45%"
+    ],
+    "challenges": "Handling multiple speakers with overlapping speech, optimizing real-time processing latency, and ensuring accurate task prioritization across different meeting contexts.",
+    "learnings": "Learned advanced prompt engineering for LLMs, implemented efficient vector search for semantic similarity, and gained experience with production ML systems."
+  },
+  {
+    "id": "ttc-delay-prediction",
+    "title": "TTC Subway Delay Prediction",
+    "tagline": "ML-powered transit forecasting system",
+    "category": "Analytics",
+    "tags": ["Machine Learning", "ETL", "Time Series", "GCP"],
+    "description": "End-to-end ML pipeline forecasting Toronto subway delays with 15% accuracy improvement.",
+    "image": "/placeholder.svg",
+    "github": "https://github.com/Aliiim2711/TTC-Subway-Delay-Prediction",
+    "overview": "Built a comprehensive machine learning system to predict subway delays in Toronto's TTC network. The project combines historical delay data, weather patterns, and real-time events to forecast delays and help commuters plan better.",
+    "problem": "TTC subway riders face unpredictable delays causing missed appointments and frustration. Historical data showed patterns but needed ML to predict future delays accurately.",
+    "dataSources": [
+      "TTC delay records (2014-2024)",
+      "Weather API data",
+      "Special events calendar",
+      "Real-time subway feed"
+    ],
+    "approach": {
+      "etl": "Designed automated ETL pipeline on GCP to ingest daily delay records, weather data, and event information",
+      "cleaning": "Handled missing values, outlier detection, feature engineering (time-based, weather, station metrics)",
+      "modeling": "Tested Random Forest, XGBoost, LSTM models; ensemble approach yielded best results",
+      "visualization": "Built interactive dashboard showing delay predictions by line, station, and time of day"
+    },
+    "techStack": [
+      "Python",
+      "Scikit-learn",
+      "XGBoost",
+      "TensorFlow",
+      "GCP",
+      "BigQuery",
+      "Tableau"
+    ],
+    "impact": [
+      "Improved delay prediction accuracy by 15%",
+      "Processed 200K+ historical records",
+      "Reduced average commute uncertainty by 12 minutes"
+    ],
+    "challenges": "Dealing with imbalanced dataset (more on-time than delayed), handling sudden unexpected events, and optimizing model inference for real-time predictions.",
+    "learnings": "Mastered time series feature engineering, learned GCP data pipeline orchestration, and gained experience with ensemble modeling techniques."
+  },
+  {
+    "id": "stock-prediction-gnn",
+    "title": "Stock Forecasting with GNN + LSTM",
+    "tagline": "Hackathon-winning hybrid ML model",
+    "category": "AI/ML",
+    "tags": ["GNN", "LSTM", "Deep Learning", "Finance"],
+    "description": "Hybrid graph neural network and LSTM model for stock price prediction. Won hackathon with 18% accuracy improvement.",
+    "image": "/placeholder.svg",
+    "github": "https://github.com/Aliiim2711/stock-prediction-gnn-lstm",
+    "overview": "Developed an innovative hybrid model combining Graph Neural Networks (GNN) and LSTM to capture both inter-stock relationships and temporal patterns. Won hackathon by demonstrating superior prediction accuracy over baseline models.",
+    "problem": "Traditional stock prediction models treat each stock independently, missing crucial market interconnections. Need to model both stock relationships and time-series patterns simultaneously.",
+    "dataSources": [
+      "Yahoo Finance API (10 years historical)",
+      "Stock correlation matrices",
+      "Market sentiment data",
+      "Economic indicators"
+    ],
+    "approach": {
+      "etl": "Built pipeline to fetch multi-stock data, compute correlation graphs, and create sliding windows for LSTM",
+      "cleaning": "Normalized prices, handled missing data, calculated technical indicators (RSI, MACD, Bollinger Bands)",
+      "modeling": "GNN captures stock relationships, LSTM handles temporal sequences, combined via attention mechanism",
+      "visualization": "Interactive charts showing predictions vs actual, attention weights, and stock correlation networks"
+    },
+    "techStack": [
+      "Python",
+      "PyTorch",
+      "PyTorch Geometric",
+      "NumPy",
+      "Pandas",
+      "Plotly"
+    ],
+    "impact": [
+      "18% improvement in return prediction accuracy",
+      "Outperformed baseline LSTM by 25%",
+      "Won hackathon against 40+ teams"
+    ],
+    "challenges": "Balancing graph complexity with training time, selecting optimal stock graph topology, and preventing overfitting on historical patterns.",
+    "learnings": "Deep dive into graph neural networks, learned attention mechanisms, and gained experience with hybrid deep learning architectures."
+  },
+  {
+    "id": "uber-eats-analytics-dashboard",
+    "title": "Uber Eats Analytics Dashboard",
+    "tagline": "Big Data insights platform with interactive visualizations",
+    "category": "Dashboards",
+    "tags": ["Streamlit", "Big Data", "Hive", "Spark", "Plotly"],
+    "description": "Interactive dashboard analyzing Uber Eats restaurant data using Big Data tools (Hive, Spark, Zeppelin) with dynamic visualizations.",
+    "image": "/placeholder.svg",
+    "github": "https://github.com/Aliiim2711/uber-eats-streamlit-dashboard",
+    "overview": "A sleek and interactive Streamlit dashboard delivering insights from Uber Eats restaurant data. This project combines Big Data tools and data visualization to help users explore market trends, dish popularity, price ranges, and regional patterns.",
+    "problem": "Food delivery platforms generate massive datasets, but extracting actionable insights for restaurant owners, analysts, and consumers requires efficient Big Data processing and intuitive visualization. Need to identify patterns in pricing, ratings, and regional food preferences at scale.",
+    "dataSources": [
+      "Uber Eats restaurant listings dataset",
+      "Restaurant ratings and reviews",
+      "Price range data by category",
+      "Geographic distribution (U.S. states)"
+    ],
+    "approach": {
+      "etl": "Built Big Data pipeline using Apache Hive and Spark to process large-scale restaurant data, with pre-computed aggregations stored in CSV format",
+      "cleaning": "Standardized restaurant categories, normalized price ranges, handled missing ratings, and aggregated state-level metrics",
+      "modeling": "Created interactive analysis views: top categories/dishes, price vs rating correlation, state-wise restaurant quality metrics",
+      "visualization": "Developed responsive Streamlit dashboard with Plotly charts for dynamic exploration of restaurant patterns and trends"
+    },
+    "techStack": [
+      "Python",
+      "Streamlit",
+      "Apache Hive",
+      "Apache Spark",
+      "Plotly",
+      "Pandas",
+      "Zeppelin"
+    ],
+    "impact": [
+      "Processed large-scale restaurant dataset using distributed computing",
+      "Enabled interactive exploration of food delivery market trends",
+      "Provided insights for restaurant pricing and quality optimization"
+    ],
+    "challenges": "Processing large datasets efficiently with Hive/Spark, designing scalable data pipelines, and creating intuitive visualizations that handle dynamic filtering and user interactions.",
+    "learnings": "Gained hands-on experience with Big Data technologies (Hive, Spark), learned to optimize data processing pipelines, and developed skills in building interactive dashboards with Streamlit and Plotly."
+  }
+]

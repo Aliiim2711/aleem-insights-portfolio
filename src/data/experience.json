@@ -1,0 +1,64 @@
+[
+  {
+    "id": "toronto-church",
+    "company": "Toronto United Church of Council",
+    "role": "Data Analyst Coop",
+    "period": "Apr 2025 – Sept 2025",
+    "location": "Toronto, ON",
+    "oneLiner": "Optimized operations with data-driven insights and automation",
+    "description": [
+      "Analyzed donation patterns and member engagement data to identify retention opportunities, increasing recurring donations by 18%",
+      "Built automated reporting system using Python and Excel VBA, reducing monthly report generation time from 8 hours to 30 minutes",
+      "Developed Power BI dashboards for program effectiveness tracking, enabling data-driven resource allocation decisions",
+      "Conducted demographic analysis to optimize community outreach programs, expanding reach to underserved areas by 25%"
+    ],
+    "skills": ["Power BI", "Python", "Excel VBA", "Data Analysis", "Reporting"]
+  },
+  {
+    "id": "visuareal",
+    "company": "Visuareal",
+    "role": "Data Analyst",
+    "period": "Feb 2023 – Nov 2023",
+    "location": "Toronto, ON",
+    "oneLiner": "Enhanced CV model performance through data analytics and monitoring",
+    "description": [
+      "Monitored computer vision model performance in production, implementing drift detection that caught 12 critical issues before customer impact",
+      "Analyzed 80K+ monthly user queries to optimize content moderation, reducing manual review workload by 75%",
+      "Built SQL data pipelines and automated quality checks, reducing data processing errors by 90%",
+      "Developed cost optimization strategies through usage pattern analysis, achieving 40% reduction in cloud infrastructure spend",
+      "Created model performance dashboards in Tableau tracking accuracy, latency, and resource utilization metrics"
+    ],
+    "skills": ["SQL", "Python", "Tableau", "ML Monitoring", "Computer Vision", "GCP"]
+  },
+  {
+    "id": "hotline",
+    "company": "Hotline Marketing Service",
+    "role": "Campaign Optimization Data Analyst",
+    "period": "Sept 2021 – Dec 2022",
+    "location": "Toronto, ON",
+    "oneLiner": "Increased qualified leads by 30% MoM through data-driven automation",
+    "description": [
+      "Designed and implemented marketing automation workflows that increased qualified leads by 30% month-over-month",
+      "Built end-to-end SQL and Python data pipeline that reduced manual reconciliation time by 45%",
+      "Conducted A/B testing and funnel analysis using Tableau and Looker Studio, achieving 20% conversion lift",
+      "Developed predictive lead scoring model using Random Forest, improving sales team efficiency by 35%",
+      "Created executive dashboards tracking campaign ROI, customer acquisition cost, and attribution metrics"
+    ],
+    "skills": ["SQL", "Python", "Tableau", "Looker Studio", "A/B Testing", "Marketing Automation"]
+  },
+  {
+    "id": "indus",
+    "company": "Indus University",
+    "role": "Research Analyst Intern",
+    "period": "Aug 2020 – Dec 2020",
+    "location": "Ahmedabad, India",
+    "oneLiner": "Delivered actionable insights for academic performance improvement",
+    "description": [
+      "Analyzed student performance data across 5,000+ records to identify at-risk students and recommend intervention strategies",
+      "Created interactive dashboards in Excel and Power BI for faculty to track course outcomes and student progress",
+      "Conducted cohort analysis revealing key factors influencing academic success, informing curriculum improvements",
+      "Automated report generation reducing administrative workload by 60%"
+    ],
+    "skills": ["Excel", "Power BI", "Data Analysis", "Statistical Analysis"]
+  }
+]

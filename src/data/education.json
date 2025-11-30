@@ -1,0 +1,46 @@
+[
+  {
+    "id": "humber",
+    "institution": "Humber College",
+    "degree": "Ontario Graduate Certificate",
+    "field": "IT Solutions",
+    "period": "Jan 2024 – Aug 2025",
+    "gpa": "4.1 / 4.3",
+    "location": "Toronto, ON",
+    "achievements": [
+      "Dean's List - Summer 2024",
+      "Multiple Dean's Honour Roll recognitions",
+      "Focus on data analytics, cloud computing, and machine learning",
+      "Completed advanced courses in Big Data, AI/ML, and Business Intelligence"
+    ],
+    "relevantCourses": [
+      "Advanced Machine Learning",
+      "Big Data Analytics",
+      "Cloud Computing (GCP/AWS)",
+      "Business Intelligence",
+      "Data Warehousing"
+    ]
+  },
+  {
+    "id": "indus",
+    "institution": "Indus University",
+    "degree": "Bachelor of Technology",
+    "field": "Computer Engineering",
+    "period": "2019 – 2022",
+    "gpa": "9.5 / 10",
+    "location": "Ahmedabad, India",
+    "achievements": [
+      "Graduated with First Class Honors",
+      "Led multiple student data science projects",
+      "Published research paper on predictive analytics",
+      "Won university-level hackathon for ML project"
+    ],
+    "relevantCourses": [
+      "Data Structures & Algorithms",
+      "Database Management Systems",
+      "Machine Learning",
+      "Statistical Methods",
+      "Software Engineering"
+    ]
+  }
+]

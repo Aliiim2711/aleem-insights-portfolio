@@ -1,0 +1,47 @@
+[
+  {
+    "id": "genai-2025",
+    "name": "GenAI Genesis 2025",
+    "date": "Jan 2025",
+    "project": "SyncScribe AI - AI Meeting Assistant",
+    "description": "Built intelligent meeting assistant with real-time transcription, summarization, and task extraction. Integrated LLMs for contextual understanding and automated action item prioritization.",
+    "achievement": "Top 10 Finalist",
+    "techStack": ["OpenAI GPT-4", "Whisper", "FastAPI", "React", "PostgreSQL"],
+    "links": {
+      "github": "https://github.com/Aliiim2711/SyncScribe-AI"
+    },
+    "problemStatement": "Meeting participants waste hours transcribing notes and extracting action items manually. Critical decisions and tasks get lost in lengthy discussions.",
+    "approach": "Developed a real-time AI assistant that captures meeting audio, transcribes with Whisper API, summarizes key points using GPT-4, and automatically extracts actionable tasks with priority ranking.",
+    "impact": "Reduced post-meeting work by 60%, improved action item tracking by 85%, and enabled instant meeting summaries for absent stakeholders.",
+    "challenges": "Handling multiple speakers, maintaining context across long meetings, and ensuring accurate task extraction with proper assignees."
+  },
+  {
+    "id": "telus-2024",
+    "name": "Telus Data for Good 2024",
+    "date": "Oct 2024",
+    "project": "Community Health Analytics Platform",
+    "description": "Developed analytics platform to identify underserved communities and optimize healthcare resource allocation. Used demographic data, health metrics, and geospatial analysis.",
+    "achievement": "Semi-Finalist & Social Impact Award",
+    "techStack": ["Python", "Pandas", "Folium", "Scikit-learn", "Tableau"],
+    "impact": "Identified 15+ underserved neighborhoods for mobile clinic deployment",
+    "problemStatement": "Healthcare resources are often distributed inefficiently, leaving vulnerable communities underserved while others have excess capacity.",
+    "approach": "Built a data analytics platform combining demographic census data, health outcome metrics, and geospatial analysis to identify healthcare deserts and recommend optimal resource allocation strategies.",
+    "challenges": "Integrating disparate data sources, handling missing data in underserved areas, and creating actionable recommendations that account for real-world constraints like budget and staffing."
+  },
+  {
+    "id": "binghamton-2023",
+    "name": "Binghamton University and ISTE 2023",
+    "date": "Nov 2023",
+    "project": "Stock Prediction using GNN + LSTM",
+    "description": "Created hybrid deep learning model combining Graph Neural Networks and LSTM for stock price forecasting. Captured inter-stock relationships and temporal patterns simultaneously.",
+    "achievement": "1st Place Winner",
+    "techStack": ["PyTorch", "PyTorch Geometric", "Pandas", "NumPy"],
+    "impact": "18% improvement in prediction accuracy over baseline models",
+    "links": {
+      "github": "https://github.com/Aliiim2711/stock-prediction-gnn-lstm"
+    },
+    "problemStatement": "Traditional stock prediction models treat stocks in isolation, missing critical inter-stock relationships and sector-wide trends that drive market movements.",
+    "approach": "Developed a hybrid architecture using Graph Neural Networks to model stock relationships (industry sectors, supply chains) and LSTM networks to capture temporal price patterns. The model jointly learns spatial and temporal dependencies.",
+    "challenges": "Defining meaningful graph structures between stocks, handling the computational complexity of GNN+LSTM architecture, and avoiding overfitting on historical patterns."
+  }
+]
